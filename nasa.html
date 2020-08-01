@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Details</title>
+</head>
+<body>
+    <h1 id="main">nasa details</h1>
+    <section id="banner">
+        <h3>welcome to my space news</h3>
+    </section>
+    <section id="main-body">
+        <p id="title"></p>
+        <img id="image" src="#">
+        <div id="container">
+            <p id="explanation"></p>
+        </div>
+    </section>
+    <script src="/fetch4.js"></script>
+</body>
+</html>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+    body{
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
+    #main{
+        font-family: 'Red Rose',sans-serif;
+        text-transform: uppercase;
+        color: blue;
+        font-size: 50px;
+        text-align: center;
+        background-color: darkgray;
+        padding: 30px;
+        margin: 0 0;
+        letter-spacing: 5px;
+    }
+    #banner{
+        font-size: 40px;
+        color: red;
+        text-transform: uppercase;
+        text-align: center;
+        font-family: 'Josefin Sans';
+        padding: 20px;
+        text-decoration: underline;
+    }
+    #title{
+        color:black;
+        font-family: 'Red Rose';
+        font-size: 30px;
+        margin-left: 5rem;
+    }
+    #image{
+        margin-left: 5rem;
+        border-radius: 10px;
+        height: 12cm;
+        width: 15cm;
+    }
+    #explanation{
+        font-family: 'Red Rose';
+        position: absolute;
+        bottom: 15rem;
+        font-size: 20px;
+        left: 50rem;
+        top: 25rem;
+    }
+</style>
